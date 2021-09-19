@@ -263,28 +263,207 @@ nav {
 
 /* services */
 
+.block .title {
+    padding: 30px 0 30px;
+}
 
+.title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
 
+.title span {
+    color: #4985FF;
+}
 
+.info {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding-bottom: 30px;
+}
 
+.block a {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   text-decoration-line: underline;
+   color: #4985FF;
+   }
 
+hr {
+   border: 1px solid #E0E0E0;
+   width: 1110px; 
+   margin-bottom: 85px;
+   margin-top: -60px;
+}
 
+.our_project {
+   padding: 100px 0;
+   background: #F6F6F8;
+   text-align: center;
+}
 
+.our_project .container button {
+   margin: 0 auto;
+   font-size: 16px;
+   color: #fff;
+   background: #4985FF;
+   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+   border-radius: 30px;
+   padding: 13px 36px;
+}
 
+.project_title h2 {
+   font-weight: bold;
+   font-size: 36px;
+   line-height: 53px;
+   padding-bottom: 50px;
+}
 
+.project_title p {
+   font-size: 16px;
+   padding-bottom: 50px;
+   color: #999999;
+}
+.project_wrap  {
+   display: grid;
+   grid-gap: 30px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin-bottom: 60px;
+}
 
+.our_job {
+  position: relative;
+}
+.bg_image img {
+  width: 100%;
+}
 
+.text_photo {
+  position: absolute;
+  top: 70px;
+  left: 32%;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.text_photo p{
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
 
+.video {
+  position: absolute;
+  top: 35%;
+  left: 17%;
+}
 
+.video_button {
+  position: absolute;
+  top: 75%;
+  left: 39%;
+}
 
+.rassylka {
+  margin-top: 230px;
+  margin-bottom: 85px;
+}
 
+.rassylka_title h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.rassylka_title p {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 30px;
+}
 
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  margin-bottom: 35px;
+}
 
+.input input {
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  padding: 15px 33px;
+  width: 400px;
+}
 
+.input button {
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  padding: 13px 33px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-left: -40px;
+}
 
+.input_p {
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+  }
 
+  .footer_wrap .container{
+    margin: 70px auto;
+    display: flex;
+    gap: 43px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: space-between;
+  }
 
+  .footer_menu li {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    padding-bottom: 10px;
+    }
+
+  .main_li {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  color: #000 !important;
+  padding-bottom: 35px !important;
+  }
+
+  .footer_icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .copyRight {
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+    margin: 30px auto;
+  }
 
 
 
